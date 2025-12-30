@@ -10,21 +10,21 @@
 <body>
     <main>
         <h1>Scoreboard</h1>
-        <nav class="gameChoice">
+        <h2>gameChoice</h2><nav class="gameChoice">
             <button class="button1"><span>gameName</span></button>
-            <button class="plus">+</button>
+            <button class="add" id="addGameChoice">+</button>
         </nav>
-        <nav class="playerChoice">
+        <h2>playerChoice</h2><nav class="playerChoice">
             <button class="players1"><span>Players</span></button>
-            <button class="plus">+</button>
+            <button class="add" id="addPlayerChoice">+</button>
         </nav>
-        <nav class="configChoice">
+        <h2>configChoice</h2><nav class="configChoice">
             <button class="simpleCounter">- 0 +</button>
             <button class="Total">0+0 = 0</button>
         </nav>
-        <div class="board">
-            <input type="text" name="player1" id="player1"><input type="number" name="number1">
-            <button class="plus">+</button>
+        <h2>playerList</h2><div class="playerList">
+            <input type="text" name="player1" id="player1"><button id="minus1">-</button><span role="textbox" contenteditable inputmode="numeric" pattern="[0-9]*"><button id="plus1">+</button>
+            <button class="add" id="addPlayer">+</button>
         </div>
     </main>
     <script src="js/script.js"></script>
